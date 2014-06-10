@@ -19,6 +19,8 @@
 		52D958221947459800E10072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D9580A1947459800E10072 /* UIKit.framework */; };
 		52D9582A1947459800E10072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52D958281947459800E10072 /* InfoPlist.strings */; };
 		52D9582C1947459800E10072 /* CommentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D9582B1947459800E10072 /* CommentTests.m */; };
+		52D95838194745D000E10072 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D95836194745D000E10072 /* MainViewController.m */; };
+		52D95839194745D000E10072 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52D95837194745D000E10072 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		52D958271947459800E10072 /* CommentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommentTests-Info.plist"; sourceTree = "<group>"; };
 		52D958291947459800E10072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52D9582B1947459800E10072 /* CommentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentTests.m; sourceTree = "<group>"; };
+		52D95835194745D000E10072 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		52D95836194745D000E10072 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		52D95837194745D000E10072 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				52D958161947459800E10072 /* XYZAppDelegate.m */,
 				52D958181947459800E10072 /* Images.xcassets */,
 				52D9580D1947459800E10072 /* Supporting Files */,
+				52D95835194745D000E10072 /* MainViewController.h */,
+				52D95836194745D000E10072 /* MainViewController.m */,
+				52D95837194745D000E10072 /* MainViewController.xib */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D958111947459800E10072 /* InfoPlist.strings in Resources */,
+				52D95839194745D000E10072 /* MainViewController.xib in Resources */,
 				52D958191947459800E10072 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D958171947459800E10072 /* XYZAppDelegate.m in Sources */,
+				52D95838194745D000E10072 /* MainViewController.m in Sources */,
 				52D958131947459800E10072 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
